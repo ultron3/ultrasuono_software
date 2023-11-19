@@ -2,7 +2,7 @@ import serial
 import time
 
 # Configura la porta seriale, sostituisci 'COM3' con la porta seriale a cui è collegato Arduino
-ser = serial.Serial('COM3', 5, timeout=1)
+ser = serial.Serial('COM3', 9600, timeout=1)
 
 try:
     while True:
